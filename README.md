@@ -15,7 +15,7 @@ The aims of today are:
 
 * Organise your work to **tell the story** of your projects
 * Start building an **online one-page portfolio** for your work
-* Learn **HTML & CSS**
+* [Learn **HTML & CSS**](#html-css-crash-course)
 * **Publish and host** your portfolio online
 
 Bringing storytelling and coding together to make something that is useful to you, today.
@@ -47,13 +47,13 @@ The **demo** is at [j.mp/html-css-portfolio-demo](http://j.mp/html-css-portfolio
 
 ## Step by step
 
-Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and sign up (it's free). 
+> Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and sign up (it's free). 
 
-Then log in and click on `Start a project from scratch`.
+> Then log in and click on `Start a project from scratch`.
 
 ### 1. Content first
 
-It's good practice to build the **HTML** first, and then make it _stylish_ with CSS. Aka *content first*.
+It's good practice to build the **HTML** first, and then make it _stylish_ with CSS. This approach is called *content first*.
 
 #### HTML skeleton
 
@@ -75,64 +75,88 @@ Every HTML document, at the bare bones, needs to have this structure
 
 #### Head
 
-In the `head` we can change the `title`.  
+> In the `head` you can change the `title`.  
 	
-Later, we'll add links to external resources like *stylesheets* and *meta* information.
+Later, you'll add links to external resources like *stylesheets* and *meta* information.
 
 What you put in the `head` is not visible in the page.
 
 #### Body
 
-We're dividing our page into sections, so let's create a few empty `section` tags inside the `body`.
+We're dividing our page into sections.
+
+> Create a few empty `section` tags inside the `body`.
 	
-```html
-<section></section>
-<section></section>
-<section></section>
-<section></section>
-<section></section>
+> ```html
+...
+	<body>
+		<section></section>
+		<section></section>
+		<section></section>
+		<section></section>
+		<section></section>
+	</body>
+</html>	
 ``` 
 
 #### Headings
 
-In the first section we'll add a `div`. Inside that, we'll add a **heading** (`h1`) and a **sub-heading** (`h2`). These will be the most important pieces of information in your page.
-
-```html
-<section>
-	<div>
-		<h1>Your name</h2>
-		<h2>Your specialties, eg: film maker</h2>
-	</div>
-</section>
+> In the **first section** add a `div`. Inside that, add a **heading** (`h1`) and a **sub-heading** (`h2`). 
+ 
+> ```html
+...
+<body>
+	<section>
+		<div>
+			<h1>Your name</h2>
+			<h2>Your specialties, eg: film maker</h2>
+		</div>
+	</section>
+...
 ```
+
+These will be the most important pieces of information in your page (for search engines like Google).
 
 #### Images
 
-In that same `div`, underneath the headings, we can add an **image** which could serve as a logo or a profile picture. 
-  
-```html	
-<img src="profilepic.jpg" alt="Describe this image">
+Images are worth thousands of words, they say. So let's upload one to start with.
+
+> To upload an image to Thimble, click on the green `+` on the top-left and the `Upload...`
+
+The **image** to upload could be your logo or your profile picture.
+
+> Once you've uploaded your picture, in that same `div`, underneath the headings, add an `<img>` code and set its `src` (source) to your image file, like so
+
+> ```html
+	...
+	<h2>Your specialties, eg: film maker</h2>
+	<img src="YOUR_IMAGE_FILE.jpg" alt="DESCRIBE THIS IMAGE">
+</div>
+...	
 ```
 
 #### Text
 
-We'll have two sections with **textual content**, so let's write something in there.  
+> In the second section we'll have **textual content**, so let's write something in there.  
 	
-```html
+> ```html
+...
+<section> ... this is the first section ... </section>
 <section>
 	<p>Write something here to introduce your project and the ideas behind it.</p>
 	<p>A little information about the process you took from research through to the development.</p>
 	<p>You process is important!</p>
 </section>
+...
 ```
 
 `p` is for *paragraph*.
 
 #### Hyperlinks
 
-We can add **hyperlinks** to our content using the `a` element (`a` is for *anchor*).
+> Add **hyperlinks** to your content using the `a` element (`a` is for *anchor*).
 	
-```html
+> ```html
 <a href="http://example.com">the clickable text</a>
 ```
 
@@ -145,15 +169,18 @@ For instance:
 
 #### Contact details
 
-Let's add our **contact details** to the final section.
+> Add your **contact details** to the last section.
  
 ```html
-<section>
-	<div>
-		<h2>Say hello!</h2>
-		<p>aimeebethmj@gmail.com</p>
-	</div>	
-</section>
+...
+	<section>
+		<div>
+			<h3>Say hello!</h3>
+			<p>YOUR_EMAIL@example.com</p>
+		</div>	
+	</section>
+</body>
+</html>	
 ```
 
 ### 2. Style later
