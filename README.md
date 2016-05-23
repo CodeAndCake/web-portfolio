@@ -9,6 +9,10 @@
 -->
 
 
+- [ ] **Intro**. Why the Web is great and why being Web-literate is fundamental these days.
+- [ ] **Sketch** out your portfolio. Checklist: images, texts (name, blurb, project description, links, contact details)
+
+
 # Build your own Web portfolio
 
 The aims of today are:
