@@ -195,45 +195,56 @@ Now the fun part: **CSS**!
 
 We want to tell the browser not to mess with our style.   
   
-So we're going to use a little CSS utility called [**normalize.css**](https://necolas.github.io/normalize.css/), which resets the default browser's stylesheet and provides a consistent common ground to base our own styles. 
+So we're going to use a little CSS utility called [**normalize.css**](https://necolas.github.io/normalize.css/), which resets the default browser's styles and provides a consistent common ground for our own styles. 
 
-Search `normalize.css` in Google and click on the first link. 
+> Search `normalize.css` in Google and click on the first link. 
 
-Click download and save the file by going to *File* and *Save page as*.
+> Click the `Download` button and save the file by going to *File* and *Save Page As...*.
 
-Now upload that file to Thimble.
+> Now upload that file to Thimble.
 
-Let's include a `link` in the `head`, which will point to the `normalize.css` file.  
+In order for your page to pick up the Normalize stylesheet, you'll need to add a `link` in the `head`, which will point to the `normalize.css` file.  
  
-```html
-<link rel="stylesheet" href="normalize.css">
+> ```html
+...
+<head>
+	...
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+</head>
 ```
 
-#### Our style
+#### Your style
 
-As you can see, `normalize.css` has flattened our page. Now we can start building our own style. 
+As you can see, `normalize.css` has flattened your page. Now you can start building your own style. 
 
-There's a `link` in our `head` which points to another CSS file called **style.css**. This is where we add our custom styles.
-
-```html
-<link rel="stylesheet" href="css/style.css">
-```
+There's a `link` in your `head` which points to another CSS file called **style.css**. This is where you add your styles.
 
 #### Typography
 
 We are going start with **typography**. 
 	
-We can grab a **font** from [Google Fonts](https://www.google.com/fonts): pick a typeface you like and then grab the `link` code for it and paste it in your page's head. 
+> Go to [Google Fonts](https://www.google.com/fonts).
 
-Where? Between `normalize.css` and  `style.css`
+> Choose a typeface you like by clicking on the `Quick-use` button (arrow pointing right). 
 
-```html
-<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+> Then grab the `link` code for it and paste it in your page's head. 
+
+> Where? Between `normalize.css` and  `style.css`
+
+> ```html
+...
+<head>
+	...
+	<link rel="stylesheet" href="normalize.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
 ```
 
 Let's give some ground rules to our page, by applying them to the `body` element. Then we can set the rules for headings, paragraphs and bold elements.
 
-```css
+> ```css
 body
 {
 	font-family: 'Lato', sans-serif;
