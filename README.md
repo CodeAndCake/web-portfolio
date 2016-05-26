@@ -63,6 +63,8 @@ It's good practice to build the **HTML** first, and then make it _stylish_ with 
 
 Thimble created an HTML skeleton for us, containing the basic **building blocks**: `html`, `head` and `body` tags.
 
+![](assets/HTML_doc_setup.jpg)
+
 Every HTML document, at the bare bones, needs to have this structure
 
 ```html
@@ -112,12 +114,14 @@ We're dividing our page into sections.
 <body>
 	<section>
 		<div>
-			<h1>Your name</h2>
+			<h1>Your name</h1>
 			<h2>Your specialties, eg: film maker</h2>
 		</div>
 	</section>
 ...
 ```
+
+![](assets/headings.jpg)
 
 These will be the most important pieces of information in your page (for search engines like Google).
 
@@ -138,6 +142,8 @@ The **image** to upload could be your logo or your profile picture.
 </div>
 ...	
 ```
+
+> Don't worry if the image is too big for now. You'll *style* it later! 
 
 #### Text
 
@@ -170,6 +176,8 @@ For instance:
 	<p>Influenced by the playful approaches to image-making used by Dadaist <a href="http://www.whitechapelgallery.org/exhibitions/hannah-hoch/">Hannah Höch</a>, I gathered a collection of portraits (Vogue portraits from the 1920's-40's and more current artist portraits) to create a collage of anonymous parts.</p>
 </section>
 ```
+
+![](assets/links_inside_paragraphs.jpg)
 
 #### Contact details
 
