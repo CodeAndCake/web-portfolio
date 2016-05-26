@@ -1,5 +1,6 @@
 - [ ] **Intro**. Why the Web is great and why being Web-literate is fundamental these days.
-- [ ] **Sketch** out your portfolio. Checklist: images, texts (name, blurb, project description, links, contact details)
+- [ ] **Sketch** out your portfolio. Checklist: images, texts (name, blurb, project description, links, contact details). 
+- [ ] Some storytelling stuff?
 - [ ] `_base.css` with a template to **remix**
 - [ ] Embed videos
 - [ ] make sure we're using Chrome.
@@ -9,7 +10,7 @@
 
 # Build your own Web portfolio
 
-The aims of today are:
+You'll learn how to:
 
 * Organise your work to **tell the story** of your projects
 * Start building an **online one-page portfolio** for your work
@@ -17,6 +18,8 @@ The aims of today are:
 * **Publish and host** your portfolio online
 
 Bringing storytelling and coding together to make something that is useful to you, today.
+
+The **demo** is at [j.mp/html-css-portfolio-demo](http://j.mp/html-css-portfolio-demo). Click `Remix` to reveal all its **source code**.
 
 <!-- 
 * as a creative, you'll be telling the story of your work and your process for the rest of your working life 
@@ -26,22 +29,20 @@ Bringing storytelling and coding together to make something that is useful to yo
 
 # HTML & CSS crash course
 
-We're going to learn how to:
+Write HTML to **structure** your content 
 
-* Write HTML to **structure** your content 
-	* Create several types of **text** (paragraphs, headings, quotes)
-	* Create **links** to other Web pages (eg: your blog)
-	* Add **images** (eg: of your work)
-	* **Embed** other media (eg: YouTube videos, tweets etc.)
+* Create several types of **text** (paragraphs, headings, quotes)
+* Create **links** to other Web pages (eg: your blog)
+* Add **images** (eg: of your work)
+* **Embed** other media (eg: YouTube videos, tweets etc.)
 	 
-* Write CSS to **style** your content
-	* Design your page's **typography**
-	* Set your page's **colours**
-	* Get images to fill up the whole browser's window, without loosing their original aspect ratio
-	* Position elements in the horizontal and vertical centre of the page
-	* Create a *curtain reveal* effect
+Write CSS to **style** your content
 
-The **demo** is at [j.mp/html-css-portfolio-demo](http://j.mp/html-css-portfolio-demo). Click `Remix` to reveal all its **source code**.
+* Design your page's **typography**
+* Set your page's **colours**
+* Get images to fill up the whole browser's window, without loosing their original aspect ratio
+* Position elements in the horizontal and vertical centre of the page
+* Create a *curtain reveal* effect
 
 > Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and sign up (it's free). 
 
@@ -196,7 +197,7 @@ For instance:
 
 > Add your **contact details** to the last section.
  
-```html
+> ```html
 ...
 	<section>
 		<div>
@@ -343,9 +344,9 @@ Text is by far the major carrier of information on the Web, so it's good practic
 </head>
 ```
 
-> * In `style.css`, define the font for the `body` element (all other elements will inherit it). 
+> In `style.css`, define the font for the `body` element (all other elements will inherit it). 
 
->	```css
+> ```css
 body
 {
 	font-family: 'Roboto Slab', sans-serif;
@@ -388,7 +389,7 @@ We will centre the sections with text and make them easier to read.
 
 > Then in `style.css` create a rule for those `section` elements *classified* as `content`. 
 
-```css
+> ```css
 .content 
 {
 	margin: 2rem auto;
@@ -437,8 +438,9 @@ Now onto the **images**. We're going to use `background-image` to define a few i
 
 > Add `background-image` directly into `index.html`. For each `section` with the class `.full` add in `style="background-image: url('image.jpg')"`
 
-For example:
-```html
+> For example:
+
+> ```html
 <section class="full" style="background-image: url('image.jpg')">
 	<div>
 		<h1>Your name</h2>
@@ -474,7 +476,7 @@ Let's add some more images in sections with `class="full"`.
 
 #### Image sizes
 
-Next we're styling the **logo** or **profile picture**.
+Next we're styling the **logo** / **profile picture**.
 
 By default images will be added to the top-left corner of their *parent*.
 
