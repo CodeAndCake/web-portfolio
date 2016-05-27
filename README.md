@@ -1,10 +1,10 @@
-- [ ] **Intro**. Why the Web is great and why being Web-literate is fundamental these days.
+- [ ] **Intro**. Why the Web is great and why being Web-literate is fundamental these days. - JDM contributes
 - [ ] **Sketch** out your portfolio. Checklist: images, texts (name, blurb, project description, links, contact details). 
-- [ ] Some storytelling stuff?
+- [ ] Some storytelling stuff? - JDM to provide portfolio bants as inspired
 - [ ] `_base.css` with a template to **remix**
 - [ ] Embed videos
 - [ ] make sure we're using Chrome.
-- [ ] Animated gif?
+- [ ] Animated gif? - JDM to talk about how Giphy had $300 million invested. GIFs are big business!
 - [ ] cropping images and saving them for Web
 
 
