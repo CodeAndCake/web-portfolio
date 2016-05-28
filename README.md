@@ -1,3 +1,4 @@
+<!--
 - [ ] **Intro**. Why the Web is great and why being Web-literate is fundamental these days. - JDM contributes
 - [ ] **Sketch** out your portfolio. Checklist: images, texts (name, blurb, project description, links, contact details). 
 - [ ] Some storytelling stuff? - JDM to provide portfolio bants as inspired
@@ -6,25 +7,55 @@
 - [ ] make sure we're using Chrome.
 - [ ] Animated gif? - JDM to talk about how Giphy had $300 million invested. GIFs are big business!
 - [ ] cropping images and saving them for Web
-
+-->
 
 # Build your own Web portfolio
+
+## Why?
+
+* Why are we here today?
+
+* Why should you have an online portfolio?
+
+* Why bother with the Web?
+
+### How many hours do you spend on the Web every day? 
+
+Pretty much anything you do is in some way related to the Web. 
+
+You communicate with your friends on the Web, you buy and sell stuff from strangers, you consume entertainment (music, videos, pictures), you find information, you can find jobs, and you can promote yourself on the Web...
+
+### Become Web-literate
+
+In a short time (~20 years) the Web has disrupted every industry it touched. The creative industries are no exception. 
+
+<!--
+Today is not about becoming professional coders (although this could be your starting point), but rather to become **confident in tinkering with code**. To see code as a **toolbox**, and not something **scary** or too **complex**.
+-->
+
+No matter what your dream job is, as a **creative professional in the 21st century you can’t be Web-illiterate**. Just like you have to be able to read and write, and do some maths. 
+
+You need to understand a bit of code and have a presence online. 
+
+<!-- You don't have to be a geek/nerd, the Web is for *everyone*. -->
+
+Becoming Web-literate will enable you to use the Web as an **open platform**, a place where you can be a **maker**, instead of a **consumer**. 
+
+<!-- Also it's a highly paid industry. -->
+
+
+## Today
 
 You'll learn how to:
 
 * Organise your work to **tell the story** of your projects
-* Start building an **online one-page portfolio** for your work
+* Build an **online one-page portfolio** for your work
 * [Learn **HTML & CSS**](#html-css-crash-course)
-* **Publish and host** your portfolio online
+* **Publish** your portfolio online
 
-Bringing storytelling and coding together to make something that is useful to you, today.
+<!-- Bringing storytelling and coding together to make something that is useful to you, today. -->
 
-The **demo** is at [j.mp/html-css-portfolio-demo](http://j.mp/html-css-portfolio-demo). Click `Remix` to reveal all its **source code**.
-
-<!-- 
-* as a creative, you'll be telling the story of your work and your process for the rest of your working life 
-* is there a jump in the story of your process (remember story lines?)
--->
+A finished **demo** of what we will build together is at [j.mp/html-css-portfolio-demo](http://j.mp/html-css-portfolio-demo). Click `Remix` to reveal all its **source code**.
 
 
 # HTML & CSS crash course
@@ -415,22 +446,20 @@ First we want to get some `section` elements in our page to take the full browse
 }
 ```
 
-<!--
 This is not enough though. 
 
-It is important to understand what `height: 100%;`means: _the full height of the parent element_. It doesn't magically mean *the height of the browser window*. So if you want your main container to have the height of the browser window, setting `height: 100%;` isn’t enough.
+It is important to understand that `height: 100%;` means _the full height of the parent element_. It doesn't magically mean *the height of the browser window*. So if you want your `.full` sections to have the height of the browser window, setting `height: 100%;` isn’t enough.
 
-_Why?_ Because the parent of your `section` (`body`) has its height set by default to `auto`, which means it is sized according to its _content_. You can try adding `height: 100%;` to the `body` element to see… it is still not enough.
+_Why?_ Because the parent of your `section` (`body`) has its height set by default to `auto`, which means it is sized according to its _content_. You can try adding `height: 100%;` to the `body` element ... and it is still not enough.
 
 _Why?_ Because the parent of `body` (`html`) has also its height set by default to `auto`. Now what if you try to add `height: 100%;` to the `html` element? It works!
 
-```css
+> ```css
 html, body
 {
 	height: 100%;	
 }
 ```
--->
 
 ### Background images
 
