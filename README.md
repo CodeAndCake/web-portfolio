@@ -71,6 +71,17 @@ You'll learn how to:
 
 A finished **demo** of what we will build together is at [j.mp/html-css-portfolio-demo](http://j.mp/html-css-portfolio-demo). Click `Remix` to reveal all its **source code**.
 
+### Your checklist:
+
+Think about **what project(s)** you want to include in your portfolio today. No need to over-think it though. You can take today as a practice run, and build a new portfolio tomorrow. Or many more portfolios!
+
+- [ ] 3 or more project **images**, illustrating both your creative process and your final output 
+- [ ] a short project description
+- [ ] links to inspiration or research (what's the story of your idea?) 
+- [ ] your name (that should be easy) 
+- [ ] a blurb about yourself
+- [ ] your contact details (email, social media profiles)
+
 
 # HTML & CSS crash course
 
