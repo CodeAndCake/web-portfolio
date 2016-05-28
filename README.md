@@ -43,6 +43,20 @@ Becoming Web-literate will enable you to use the Web as an **open platform**, a 
 
 <!-- Also it's a highly paid industry. -->
 
+## Draw *the Web*!	
+
+> But what do you mean by *the Web*? 
+
+Imagine you have to **explain** what the Web is to an alien, or to your grandma. 
+
+**Draw what the Web means to you** *personally*. No need to make a technical drawing.
+
+You have ~10 minutes to **sketch your idea** out.
+
+<!--
+(globe/planet, connections, computers, brands)
+(clouds, trees, cats)
+-->
 
 ## Today
 
@@ -60,14 +74,14 @@ A finished **demo** of what we will build together is at [j.mp/html-css-portfoli
 
 # HTML & CSS crash course
 
-Write HTML to **structure** your content 
+You write HTML to **structure** your content. Today you will: 
 
 * Create several types of **text** (paragraphs, headings, quotes)
 * Create **links** to other Web pages (eg: your blog)
 * Add **images** (eg: of your work)
 * **Embed** other media (eg: YouTube videos, tweets etc.)
-	 
-Write CSS to **style** your content
+
+You write CSS to **style** your content. Today you will:
 
 * Design your page's **typography**
 * Set your page's **colours**
