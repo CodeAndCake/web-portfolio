@@ -13,21 +13,21 @@
 
 ## Why?
 
-* Why are we here today?
+* *Why* are we here today?
 
-* Why should you have an online portfolio?
+* *Why* should you have an online portfolio?
 
-* Why bother with the Web?
+* *Why* bother with the Web?
 
-### How many hours do you spend on the Web every day? 
+### How many hours do NOT you spend on the Web every day? 
 
 Pretty much anything you do is in some way related to the Web. 
 
-You communicate with your friends on the Web, you buy and sell stuff from strangers, you consume entertainment (music, videos, pictures), you find information, you can find jobs, and you can promote yourself on the Web...
-
-### Become Web-literate
+You communicate with your friends on the Web, you buy and sell stuff from strangers, you consume entertainment (music, videos, pictures), you find information, you can find jobs, and you can *promote yourself* on the Web...
 
 In a short time (~20 years) the Web has disrupted every industry it touched. The creative industries are no exception. 
+
+### Become **Web-literate**
 
 <!--
 Today is not about becoming professional coders (although this could be your starting point), but rather to become **confident in tinkering with code**. To see code as a **toolbox**, and not something **scary** or too **complex**.
