@@ -19,7 +19,7 @@
 
 * *Why* bother with the Web?
 
-### How many hours do NOT you spend on the Web every day? 
+### How many hours do you NOT spend on the Web every day? 
 
 Pretty much anything you do is in some way related to the Web. 
 
